@@ -1,5 +1,5 @@
 # PRMSSIUS-PowerShell
-Powershell script that allows the user to specify a directory name and file names, and it can also create subdirectories within directories:
+This Powershell script is designed to audit the strength of user passwords on a Windows system and provides options for password management. It assesses password quality, identifies weak passwords.
 
 
 
