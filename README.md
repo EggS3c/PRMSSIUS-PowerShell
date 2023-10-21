@@ -9,7 +9,7 @@ Powershell script that allows the user to specify a directory name and file name
 
 
 
-Usage 
+#Usage 
 
 To run a PowerShell script like the one provided, follow these steps:
 
@@ -46,3 +46,25 @@ Follow the On-Screen Prompts:
 
 The script will provide on-screen prompts according to the options you choose, such as whether to create users, create a root user, reset user passwords, and display options.
 Please note that when running PowerShell scripts, you should be cautious and understand the script's purpose and the potential impact on your system, especially if it involves user creation or administrative privileges. Always ensure the source of the script is trusted.
+
+
+
+#report 
+
+
+  ██████╗ ██████╗ ███╗   ███╗███████╗███████╗██╗██╗   ██╗███████╗
+  ██╔══██╗██╔══██╗████╗ ████║██╔════╝██╔════╝██║██║   ██║██╔════╝
+  ██████╔╝██████╔╝██╔████╔██║███████╗██████╗  ██║██║   ██║███████╗
+  ██╔═══╝ ██╔══██╗██║╚██╔╝██║╚════██║╚════██╗██║██║   ██║╚════██║
+  ██║     ██║  ██║██║ ╚═╝ ██║███████║██████╔╝██║╚██████╔╝███████║
+  ╚═╝     ╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝╚═════╝ ╚═╝ ╚═════╝ ╚══════╝
+
+Password Audit Report
+Minimum Password Length: 8 characters
+Recommended Password Length: 12 characters or more
+
+windows-user    Strong  $1$SG6XtVxm$U73ZdRBWEgpqTSMk.KNRU.
+Guest   Strong  $1$j5DCKleI$3g5hVi.Qt.K9wj1bLb9FH/
+Administrator   Strong  $1$mrCazpgK$n0WPRwsFGNJLJtt4Sg//H1
+Password audit completed. Report saved in 'password_audit_report.txt'.
+
